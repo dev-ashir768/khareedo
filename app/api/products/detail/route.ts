@@ -1,7 +1,10 @@
+const API_URL = "https://oms.getorio.com/api/marketplace/productdetail";
+const IMAGE_BASE = "https://oms.getorio.com/uploads";
+
 export async function POST(request: Request) {
   const body = await request.json();
 
-  const res = await fetch(`${process.env.API_BASE_URL}/productdetail`, {
+  const res = await fetch(API_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -23,11 +26,10 @@ export async function POST(request: Request) {
   const data = await res.json();
   const p = data.payload;
 
-  // Normalize image URLs
   function resolveImage(img: string, acno: string) {
     if (!img || img === "none") return "";
     if (img.startsWith("http")) return img;
-    return `${process.env.API_IMAGE_BASE_URL}/${acno}/${img}`;
+    return `${IMAGE_BASE}/${acno}/${img}`;
   }
 
   const images = (p.images || []).map((img: { url: string; alt: string }) => ({
