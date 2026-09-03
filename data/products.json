@@ -1,0 +1,2208 @@
+{
+  "status": "success",
+  "message": "Products fetched successfully",
+  "payload": {
+    "total_count": 122,
+    "total_pages": 1,
+    "current_page": 1,
+    "limit": 122,
+    "products": [
+      {
+        "id": "583553",
+        "acno": "OR-00322",
+        "product_name": "Hair Shampoo | Anti-Hair Fall",
+        "price": "999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/hair_shampoo_copy_421cb279-bb7d-44b0-b122-e55d15baf7861729334899.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MHL-HSP02",
+        "type": "simple",
+        "business_name": null,
+        "rn": "13",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590936",
+        "acno": "OR-04035",
+        "product_name": "Maaz Safder W1 for Women 35ml",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/W111758361741.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSWMN-W1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "14",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582945",
+        "acno": "OR-02860",
+        "product_name": "YoungLA 447 Wide Neck Gray Raw Cut Tee",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/greyyoung1727698364.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-4eb7616c-1",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "14",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583531",
+        "acno": "OR-00322",
+        "product_name": "Anti-Acne Serum",
+        "price": "910.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/ANTI_ACNE_SERUM_copy1729334891.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MFL-ASR01",
+        "type": "simple",
+        "business_name": null,
+        "rn": "14",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590935",
+        "acno": "OR-04035",
+        "product_name": "M1 for Men 35ml by Maaz Safder",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/M1-11761725375.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSMN-M1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "15",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583007",
+        "acno": "OR-02860",
+        "product_name": "2006 - Piping Collection - Joggers Light Off White",
+        "price": "2999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/whio1_11727698562.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-f8acccdd",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "15",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583521",
+        "acno": "OR-00322",
+        "product_name": "Beard Wax",
+        "price": "849.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/beard_wax_N_copy1729334888.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MBL-BWX05",
+        "type": "simple",
+        "business_name": null,
+        "rn": "15",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590943",
+        "acno": "OR-04035",
+        "product_name": "W2 for Women 50ml",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/WhatsApp_Image_2025-03-22_at_5.18.49_AM_11756726693.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSWMN-W2-50",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "16",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583005",
+        "acno": "OR-02860",
+        "product_name": "2006 - Piping Collection - Joggers Coal",
+        "price": "2999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/coap_11727698556.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-d6b4eb5d",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "16",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583529",
+        "acno": "OR-00322",
+        "product_name": "Activated Charcoal Face Scrub",
+        "price": "799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/face_scrub_tube_copy1729334890.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MFL-CFS03",
+        "type": "simple",
+        "business_name": null,
+        "rn": "16",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "593657",
+        "acno": "OR-04035",
+        "product_name": "Gift Packaging",
+        "price": "200.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/GiftPack1767610811.gif",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "MS-GIFT-PACKING",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "17",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582947",
+        "acno": "OR-02860",
+        "product_name": "YoungLA 447 Wide Neck Tan Raw Cut Tee",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/tan1727698370.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-93223d7e-1",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "17",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583534",
+        "acno": "OR-00322",
+        "product_name": "Beard Growth Kit",
+        "price": "2790.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/beard_care_kit_copy1729334892.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MGK-BGK03",
+        "type": "simple",
+        "business_name": null,
+        "rn": "17",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590949",
+        "acno": "OR-04035",
+        "product_name": "B-Elsa by Maaz Safder Edp 30ml",
+        "price": "1499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Elsa175672669817676108451773395484.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSKID-ELSA1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "18",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582943",
+        "acno": "OR-02860",
+        "product_name": "YoungLA 447 Wide Neck Black Raw Cut Tee",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/black1727698358.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-01a9a9b6",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "18",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582989",
+        "acno": "OR-02860",
+        "product_name": "BB 2088 - New Wave Baggy Sweats Black",
+        "price": "3900.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/okik_11727698503.webp",
+        "on_sale": "N",
+        "product_weight": "0.90",
+        "sku_code": "SKU-5b9ff103",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "1",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590938",
+        "acno": "OR-04035",
+        "product_name": "Maaz Safder Only Yours for Men 35ml",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/WhatsApp_Image_2025-03-22_at_5.18.50_AM1756726692.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSMN-ONLMN1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "1",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583549",
+        "acno": "OR-00322",
+        "product_name": "Hair Styling Clay | 100% Natural",
+        "price": "990.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/hair_styling_clay_transparent_jar_copy_8549cf96-66cc-4d05-a7a7-2783b68fca4e1767355755.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MHL-HSC01",
+        "type": "simple",
+        "business_name": null,
+        "rn": "1",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594088",
+        "acno": "OR-04380",
+        "product_name": "Centella Night Cream  Night Renewal",
+        "price": "2675.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/CentellaNightCream1777282575.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "NC-CR",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "1",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582992",
+        "acno": "OR-02860",
+        "product_name": "BG 2088 - New Wave Baggy Sweats Gray Wash",
+        "price": "3900.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/gray_sweat_11727698513.webp",
+        "on_sale": "N",
+        "product_weight": "0.90",
+        "sku_code": "SKU-410e94d7",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "2",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594554",
+        "acno": "OR-04035",
+        "product_name": "MS Body Mist Blushing Rose 150Ml",
+        "price": "1000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/BlushingRose11770896468.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSWMN-MIST02-150",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "2",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583533",
+        "acno": "OR-00322",
+        "product_name": "Face Grooming Kit",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/face_care_kit_tubes_copy1729334892.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MGK-FGK01",
+        "type": "simple",
+        "business_name": null,
+        "rn": "2",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594091",
+        "acno": "OR-04380",
+        "product_name": "Centella Serum  Radiance Reset",
+        "price": "2645.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/Elaris7_Centella_Serum_Radiance_Reset_bottle1783585879.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SE-CR",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "2",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582994",
+        "acno": "OR-02860",
+        "product_name": "BP 2088 - New Wave Baggy Sweats Navy Purple Wash",
+        "price": "3900.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/navy_swea_11727698520.webp",
+        "on_sale": "N",
+        "product_weight": "0.90",
+        "sku_code": "SKU-94ad7590",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "3",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590962",
+        "acno": "OR-04035",
+        "product_name": "MS Only Yours INTENSE for Men 80ml",
+        "price": "4900.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Only_Yours_Intense_00011763886540.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSMN-ONLMN2-80",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "3",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583528",
+        "acno": "OR-00322",
+        "product_name": "Activated Charcoal Face Wash",
+        "price": "599.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/face_wash_copy1729334890.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MFL-CFW02",
+        "type": "simple",
+        "business_name": null,
+        "rn": "3",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594089",
+        "acno": "OR-04380",
+        "product_name": "Centella Face Wash  Pure Start",
+        "price": "2620.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/Elaris7_Centella_Face_Wash_Pure_Start_bottle1783584119.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "FW-CR",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "3",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582993",
+        "acno": "OR-02860",
+        "product_name": "BDG 2088 - New Wave Baggy Sweats Dark Green Wash",
+        "price": "3900.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/green_sweat1_11727698517.webp",
+        "on_sale": "N",
+        "product_weight": "0.90",
+        "sku_code": "SKU-18374c15",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "4",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594553",
+        "acno": "OR-04035",
+        "product_name": "MS Body Mist Peach Crush 150Ml",
+        "price": "1000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/PeachCrush11770896468.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSWMN-MIST01-150",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "4",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583557",
+        "acno": "OR-00322",
+        "product_name": "Lip Lightening balm",
+        "price": "590.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/LIP_LIGHTNENING_BALM_copy1729334901.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "FG-MFL-LBM08",
+        "type": "simple",
+        "business_name": null,
+        "rn": "4",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594090",
+        "acno": "OR-04380",
+        "product_name": "Centella Sunscreen SPF60+  Daily Shield",
+        "price": "2735.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/TintedCentellaSunscreenSPF601777282474.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SS-CR",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "4",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582995",
+        "acno": "OR-02860",
+        "product_name": "BO 2088 - New Wave Baggy Sweats Orange Wash",
+        "price": "3900.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/orange_washe_11727698523.webp",
+        "on_sale": "N",
+        "product_weight": "0.90",
+        "sku_code": "SKU-728e1601",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "5",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590959",
+        "acno": "OR-04035",
+        "product_name": "Majestic feel for women 35ml",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/MAJESTIC11758361644.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSWMN-MGSTIC1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "5",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583559",
+        "acno": "OR-00322",
+        "product_name": "Hair Styling Kit | New Launch",
+        "price": "1990.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/hair_styling_kit_copy1729334901.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "FG-MGK-HGK07",
+        "type": "simple",
+        "business_name": null,
+        "rn": "5",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594095",
+        "acno": "OR-04380",
+        "product_name": "Centella Moisturizer",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/Artboard_13-1001768910347.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "MO-CR",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "5",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582996",
+        "acno": "OR-02860",
+        "product_name": "210 Kick-Back Joggers Black",
+        "price": "2599.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/by1_11727698525.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-551b2f95",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "6",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594692",
+        "acno": "OR-04035",
+        "product_name": "MS Off-Sports for Men 50ml",
+        "price": "3800.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/sports11773395461.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSMN-OFFSports-50",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "6",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583539",
+        "acno": "OR-00322",
+        "product_name": "Face Glowing Kit",
+        "price": "1130.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/face_care_charcoal_combo_tubes_copy1729334894.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MGK-FCC02",
+        "type": "simple",
+        "business_name": null,
+        "rn": "6",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594107",
+        "acno": "OR-04380",
+        "product_name": "Oil to Foam Cleanser",
+        "price": "2850.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/cleanser_cover1768910355.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "OC-CR",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "6",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "583000",
+        "acno": "OR-02860",
+        "product_name": "210 Kick-Back Joggers Charcoal",
+        "price": "2599.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/cyla1_11727698540.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-262897a2",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "7",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590954",
+        "acno": "OR-04035",
+        "product_name": "Maaz Safder Chocolate Bar (Pack of 3)",
+        "price": "800.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Web-image-for-chocolate1756726710.png",
+        "on_sale": "N",
+        "product_weight": "0.30",
+        "sku_code": "MSEAT-CHOC-P31",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "7",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583555",
+        "acno": "OR-00322",
+        "product_name": "Hair Serum | Anti-Hair Fall & Hair Growth",
+        "price": "1190.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/hair_serum_copy_5d9905f8-7bc0-4b63-b05e-45b18c2f6da21729334900.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "FG-MHL-HSR03",
+        "type": "simple",
+        "business_name": null,
+        "rn": "7",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594106",
+        "acno": "OR-04380",
+        "product_name": "Skin Refining Toner",
+        "price": "2670.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/Artboard_11-1001768910355.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "ST-CR",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "7",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582998",
+        "acno": "OR-02860",
+        "product_name": "210 Kick-Back Joggers Mocha",
+        "price": "2599.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/byl1_11727698532.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-3dd7b511",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "8",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590961",
+        "acno": "OR-04035",
+        "product_name": "Dab Dude for Kids 35ml",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/DD11761071729.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSBKID-DabDud1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "8",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583546",
+        "acno": "OR-00322",
+        "product_name": "Ultra-Hydrating Face Moisturizer for Men",
+        "price": "949.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/ultra_hydrating_face_moisturizer_N_copy1729334896.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MFL-HFM05",
+        "type": "simple",
+        "business_name": null,
+        "rn": "8",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594105",
+        "acno": "OR-04380",
+        "product_name": "Underarm Deodorant",
+        "price": "2950.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/F82D1239-7619-4751-9F33-4A798C7002E21768910355.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "UD-AB",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "8",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582946",
+        "acno": "OR-02860",
+        "product_name": "YoungLA 447 Wide Neck White Raw Cut Tee",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/white1727698367.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-f8549d03",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "9",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590942",
+        "acno": "OR-04035",
+        "product_name": "Maaz Safder M2 for Men 35ml",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/M211758361833.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSMN-M2-50",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "9",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583560",
+        "acno": "OR-00322",
+        "product_name": "Ultra Hydrating Sunscreen | Newly Launched",
+        "price": "990.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/SUN_SCREEN_copy_cf20493a-5b1c-4267-a673-d02b648ef7f017293349021729600952.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "FG-MFL-UES10",
+        "type": "simple",
+        "business_name": null,
+        "rn": "9",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594104",
+        "acno": "OR-04380",
+        "product_name": "Underarm Radiance Toner",
+        "price": "2980.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/76228A94-DE94-45B9-8A33-692EA99BBB131768910354.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "UT-AB",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "9",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582976",
+        "acno": "OR-02860",
+        "product_name": "CB 206 Rambo Combat Joggers Joggers Military Black Wash | GSK-427068",
+        "price": "4000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/T11727698461.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-f804c68c",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "10",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590960",
+        "acno": "OR-04035",
+        "product_name": "Peppy Pixie for Kids 35ml",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/PP11761072278.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSGKID-PeppPIX1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "10",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583523",
+        "acno": "OR-00322",
+        "product_name": "Beard Shampoo",
+        "price": "849.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/beard_shampoo_N_copy1729334888.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MBL-BSP04",
+        "type": "simple",
+        "business_name": null,
+        "rn": "10",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "594100",
+        "acno": "OR-04380",
+        "product_name": "Gift Box Add-On",
+        "price": "500.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04380/ChatGPTImageAug11_2025_10_52_22AM1768910351.png",
+        "on_sale": "N",
+        "product_weight": "0.01",
+        "sku_code": "100",
+        "type": "simple",
+        "business_name": "Elaris7 enterprises",
+        "rn": "10",
+        "marketplace_category_id": [
+          2
+        ]
+      },
+      {
+        "id": "582928",
+        "acno": "OR-02860",
+        "product_name": "T76 Black-Acid Wash YoungLA Tee Wavy",
+        "price": "2800.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/younglablack1727698311.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-2a73b387",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "11",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590946",
+        "acno": "OR-04035",
+        "product_name": "Maaz Safder Signature 65ml",
+        "price": "6000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/IMG_2013_11756726696.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSSMN-SIG1-65",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "11",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583558",
+        "acno": "OR-00322",
+        "product_name": "Under Eye Serum",
+        "price": "990.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/UNDER_EYE_SERUM_copy1729334901.jpg",
+        "on_sale": "N",
+        "product_weight": "0.01",
+        "sku_code": "FG-MFL-UES09",
+        "type": "simple",
+        "business_name": null,
+        "rn": "11",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582990",
+        "acno": "OR-02860",
+        "product_name": "210 Kick-Back Joggers Sand",
+        "price": "2599.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/SYLA11727698506.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-7d486071",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "12",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590944",
+        "acno": "OR-04035",
+        "product_name": "INVICTO by Maaz Safder Unisex 35ml",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/WhatsApp_Image_2025-03-22_at_5.18.49_AM1756726694.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSUNSX-INVIC1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "12",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583552",
+        "acno": "OR-00322",
+        "product_name": "Activated Charcoal Body Wash | Newly Launched",
+        "price": "899.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/body_wash_copy_c3871949-9c2e-470f-9113-448f4c5d52401729334899.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MFL-CBW07",
+        "type": "simple",
+        "business_name": null,
+        "rn": "12",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583023",
+        "acno": "OR-02860",
+        "product_name": "5105 - Piping Collection - Hoodies Charcol Grey",
+        "price": "3999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/Untitled_design_31727698603.png",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-39993eca",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "13",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590939",
+        "acno": "OR-04035",
+        "product_name": "Maaz Safder body expression for women 35ml",
+        "price": "2300.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/WhatsApp_Image_2025-03-22_at_5.18.58_AM1756726692.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSWMN-EXPWMN1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "13",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583554",
+        "acno": "OR-00322",
+        "product_name": "Hair Care Kit",
+        "price": "1700.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/hair_care_kit_copy_2a8d5797-ac4b-41a9-9d0a-186e2ba3e7c61729334899.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MGK-HCK05",
+        "type": "simple",
+        "business_name": null,
+        "rn": "18",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582999",
+        "acno": "OR-02860",
+        "product_name": "210 Kick-Back Joggers Navy",
+        "price": "2599.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/ylana1_11727698535.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-d6b2ad82",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "19",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "600295",
+        "acno": "OR-04035",
+        "product_name": "Slay Star for Kids 35ml",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "1",
+        "image": "https://oms.getorio.com/uploads/OR-04035/slay_star_11787295472.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSGKID-SlayStar-35",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "19",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583537",
+        "acno": "OR-00322",
+        "product_name": "Beard Duo Kit",
+        "price": "1120.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/beard_duo_kit_copy_6d17468c-ec98-4e33-a034-6ce9c1988cd41729334893.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MGK-BDK04",
+        "type": "simple",
+        "business_name": null,
+        "rn": "19",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583011",
+        "acno": "OR-02860",
+        "product_name": "5105 - Piping Collection - Hoodies Off White",
+        "price": "3999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/WhatsApp_Image_2024-09-12_at_04.26.49_a607bcad1727698576.jpg",
+        "on_sale": "N",
+        "product_weight": "1.00",
+        "sku_code": "SKU-2b24ed1b",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "20",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590937",
+        "acno": "OR-04035",
+        "product_name": "Package Deal M1 and W1 Pair",
+        "price": "5000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/092e5714-7c49-44c9-b291-27fadefe8ae2175672669117676108201773395467.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSMXSX-BN-W1M1",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "20",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583556",
+        "acno": "OR-00322",
+        "product_name": "Hair Growth Kit",
+        "price": "2790.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/hair_growth_kit_copy1729334900.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "FG-MGK-HGK06",
+        "type": "simple",
+        "business_name": null,
+        "rn": "20",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582987",
+        "acno": "OR-02860",
+        "product_name": "215 No Cuff Pump Covers Coal",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/kopl_11727698496.webp",
+        "on_sale": "N",
+        "product_weight": "0.60",
+        "sku_code": "SKU-e4c28df4",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "21",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590958",
+        "acno": "OR-04035",
+        "product_name": "Green by Maaz Safder Unisex 50ml (Limited Edition)",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Faizan-03175672671317676108651773395500.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSUNSX-GRN1-50",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "21",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583518",
+        "acno": "OR-00322",
+        "product_name": "Black Orchid Beard Oil - With Greek Seduction",
+        "price": "990.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/black_orchid_beard_oil_N_copy1729334887.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MBL-BOO01",
+        "type": "simple",
+        "business_name": null,
+        "rn": "21",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582944",
+        "acno": "OR-02860",
+        "product_name": "YoungLA 447 Wide Neck Navy Raw Cut Tee",
+        "price": "1600.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/navyyoung1727698361.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-0118047a-1",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "22",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590947",
+        "acno": "OR-04035",
+        "product_name": "B-Batman by Maaz Safder Edp 30ml",
+        "price": "1499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Batman175672669717676108381773395478.png",
+        "on_sale": "N",
+        "product_weight": "0.30",
+        "sku_code": "MSKID-BAT1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "22",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583526",
+        "acno": "OR-00322",
+        "product_name": "Beard Patches Oil",
+        "price": "999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/beard_patches_oil_N_copy1729334890.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MBL-BPO06",
+        "type": "simple",
+        "business_name": null,
+        "rn": "22",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582977",
+        "acno": "OR-02860",
+        "product_name": "CO 206 Rambo Combat Joggers Joggers Military Olive Wash | GSK-427068",
+        "price": "4000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/Military_Olive_Wash_YoungLA_206_Rambo_Co-354106-SFM_ZOOM1727698466.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-ac281ba9",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "23",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590952",
+        "acno": "OR-04035",
+        "product_name": "B-Superman by Maaz Safder Edp 30ml",
+        "price": "1399.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Superman175672670317676108521773395492.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSKID-SUP1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "23",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583548",
+        "acno": "OR-00322",
+        "product_name": "Anti-Wrinkle Serum",
+        "price": "999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/ANTI_WRINKLE_SERUM_copy_676c11f5-9939-4603-bcb1-e109f0dbbda01729334897.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MFL-AWS06",
+        "type": "simple",
+        "business_name": null,
+        "rn": "23",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582988",
+        "acno": "OR-02860",
+        "product_name": "2006 - Piping Collection - Joggers Black",
+        "price": "2999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/download1727698499.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-eadbc9a9",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "24",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583524",
+        "acno": "OR-00322",
+        "product_name": "Beard Brush",
+        "price": "699.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/beardbrushcopy1729334889.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MBL-BBR07",
+        "type": "simple",
+        "business_name": null,
+        "rn": "24",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583021",
+        "acno": "OR-02860",
+        "product_name": "W246 Signature Joggers Black",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/byla1727698594.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-06b60963",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "25",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590940",
+        "acno": "OR-04035",
+        "product_name": "Pack Deal Only Yours and Body Expression",
+        "price": "3420.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Pack175672669217676108261773395470.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSMXSX-BN-ONLMNEXPWMN",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "25",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583544",
+        "acno": "OR-00322",
+        "product_name": "Romanian Softness | EDP | 100ml",
+        "price": "1990.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/3rs1729334896.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "AR-000004",
+        "type": "simple",
+        "business_name": null,
+        "rn": "25",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583002",
+        "acno": "OR-02860",
+        "product_name": "1078 - Piping Collection - Shorts Black",
+        "price": "1999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/pipingylashorts3_11727698546.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-16621211",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "26",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590948",
+        "acno": "OR-04035",
+        "product_name": "B-Boss Baby by Maaz Safder Edp 30ml",
+        "price": "1499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Boss-baby175672669817676108421773395478.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSKID-BOSS1-30",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "26",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583550",
+        "acno": "OR-00322",
+        "product_name": "Premium Face Care Gift Box",
+        "price": "2890.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/facekit2copy_11729334898.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MPK-PFK02",
+        "type": "simple",
+        "business_name": null,
+        "rn": "26",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583006",
+        "acno": "OR-02860",
+        "product_name": "2006 - Piping Collection - Joggers Light Blue",
+        "price": "2999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/ligh_11727698559.webp",
+        "on_sale": "N",
+        "product_weight": "0.70",
+        "sku_code": "SKU-e161189e",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "27",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590945",
+        "acno": "OR-04035",
+        "product_name": "Scented Candles by Maaz Safder",
+        "price": "2000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/Scented-candles-banner-2_02175672669417676108371773395474.png",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSACC-CNDL-BB1",
+        "type": "variable",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "27",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583551",
+        "acno": "OR-00322",
+        "product_name": "Premium Beard Care Gift Box",
+        "price": "2990.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-00322/beardkit2copy1729334898.jpg",
+        "on_sale": "N",
+        "product_weight": "0.05",
+        "sku_code": "FG-MPK-PBK01",
+        "type": "simple",
+        "business_name": null,
+        "rn": "27",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582966",
+        "acno": "OR-02860",
+        "product_name": "CSG Hawthorne Cargo Shorts",
+        "price": "1499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/13374577_om11727698430.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-5d4bb1c1",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "28",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "590955",
+        "acno": "OR-04035",
+        "product_name": "MS Beads Facewash",
+        "price": "800.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-04035/WhatsAppImage2024-01-26at12.19.41AM175672671017676108571773395495.jpg",
+        "on_sale": "N",
+        "product_weight": "0.40",
+        "sku_code": "MSGRM-FWSH-BEAD1",
+        "type": "simple",
+        "business_name": "Maaz Safder Fragrance",
+        "rn": "28",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582931",
+        "acno": "OR-02860",
+        "product_name": "Bershka plush Cargo bermuda Shorts White",
+        "price": "1199.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/bbb31727698321.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-c0a538f6",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "63",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582963",
+        "acno": "OR-02860",
+        "product_name": "El Ganso Natural Bermudas Green",
+        "price": "1299.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/jd11727698422.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-9f647aca",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "64",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583008",
+        "acno": "OR-02860",
+        "product_name": "102 Bodybuilding French Terry Camo Black",
+        "price": "1999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/For_Main_Pic_c2ed8e76-dfdc-4154-a24d-526058b38455_11727698565.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-bc23994a",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "65",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582929",
+        "acno": "OR-02860",
+        "product_name": "Felicia paris Stroke Print Oversize Tee",
+        "price": "1099.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/filj1727698315.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-6fc4e6b5",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "66",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582981",
+        "acno": "OR-02860",
+        "product_name": "Pull & Bear Basic round neck sweatshirt Anthracite Grey",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/pm11727698477.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-4e986cd0",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "67",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583015",
+        "acno": "OR-02860",
+        "product_name": "215 No Cuff Pump Covers Brown",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/215_chocolate_001_07_10_floor_2_11727698583.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-d6c3f862",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "68",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583010",
+        "acno": "OR-02860",
+        "product_name": "5105 - Piping Collection - Hoodies Light Blue",
+        "price": "3999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/yla_hoodie_blue_11727698572.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-398db300",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "69",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583014",
+        "acno": "OR-02860",
+        "product_name": "W247 Pump Cover Joggers Green",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/gy_11727698582.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-8ae800f6",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "70",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582950",
+        "acno": "OR-02860",
+        "product_name": "Felicia Blue Shorts With Black Stripes",
+        "price": "999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/blue11727698379.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-0001e3ac",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "71",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582958",
+        "acno": "OR-02860",
+        "product_name": "OVERSIZED VARSITY APPLIQUE GRAPHIC T-SHIRT - SAND",
+        "price": "1999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/Screenshot2024-05-25134544_f2bd727e-500e-421c-8c4a-a328b65b716c1727698407.png",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-323710c4",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "72",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583016",
+        "acno": "OR-02860",
+        "product_name": "W246 Signature Joggers White",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/whg2_11727698586.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-3e3d7266",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "53",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583018",
+        "acno": "OR-02860",
+        "product_name": "W246 Signature Joggers Yellow",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/yla2_11727698588.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-f22f809a",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "54",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582932",
+        "acno": "OR-02860",
+        "product_name": "Ellesse Elvare white cargo Joggers",
+        "price": "1199.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/o1727698325.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-84c0d00d",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "55",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582983",
+        "acno": "OR-02860",
+        "product_name": "Pull & Bear Basic round neck sweatshirt Bottle",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/bot1727698482.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-2de0a3e5",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "56",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582948",
+        "acno": "OR-02860",
+        "product_name": "Felicia Bold Pattern Oversize T-Shirt",
+        "price": "1099.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/filiciadrop1727698373.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-af744be3",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "57",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582972",
+        "acno": "OR-02860",
+        "product_name": "T62 Youngla 408 Autobiography Tees Red",
+        "price": "2800.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/408_autobiography_tees_01727698449.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-e977d13a",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "58",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582982",
+        "acno": "OR-02860",
+        "product_name": "Pull & Bear Basic round neck sweatshirt Ecru",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/pn1727698479.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-f08cde93",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "59",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583024",
+        "acno": "OR-02860",
+        "product_name": "Belly Oversized Hoodie Washed Black",
+        "price": "2999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/kopq1_11727698606.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-2c7a4ee9",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "60",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582949",
+        "acno": "OR-02860",
+        "product_name": "Felicia Dark Green Jogger Shorts",
+        "price": "899.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/shortg1727698376.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-c3ca1609",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "61",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582980",
+        "acno": "OR-02860",
+        "product_name": "Pull & Bear Basic round neck sweatshirt Black",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/pbb1727698474.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-0964bcaa",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "62",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583009",
+        "acno": "OR-02860",
+        "product_name": "102 Bodybuilding French Terry Black",
+        "price": "1999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/vLCov8_11727698569.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-97f5ddb0",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "43",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582979",
+        "acno": "OR-02860",
+        "product_name": "Pull & Bear Basic round neck sweatshirt Off White",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/pb1727698471.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-cac4f1e8",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "44",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583019",
+        "acno": "OR-02860",
+        "product_name": "W246 Signature Joggers Aqua",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/AYLA1_11727698590.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-648be8bf",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "45",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583022",
+        "acno": "OR-02860",
+        "product_name": "PINACOLA WHITE MEN`S PANTS",
+        "price": "1999.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/Screenshot2024-09-130340061727698595.png",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-67e563d9",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "46",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582961",
+        "acno": "OR-02860",
+        "product_name": "Bershka plush Cargo bermuda Shorts Gray",
+        "price": "1499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/ml11727698416.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-97e6082e",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "47",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582984",
+        "acno": "OR-02860",
+        "product_name": "Bohoo Man Active Training Dept Boxy Hoodie",
+        "price": "2499.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/male-black-man-active-training-dept-boxy-hoodie1727698484.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-41620e98",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "48",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582971",
+        "acno": "OR-02860",
+        "product_name": "T50 Youngla 408 Autobiography Tees",
+        "price": "2800.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/408_autobiography_tees_11727698447.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-50032bef",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "49",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582985",
+        "acno": "OR-02860",
+        "product_name": "RAD BOYZ GLOBAL TAKE OVER CREAM HOODIE",
+        "price": "4000.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/E546FA60-609F-4C9B-88D8-9D62EEE2FEC9_600x_348b2992-964d-4bc1-b831-1dbec9c14ea01727698487.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-4f955223",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "50",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "583020",
+        "acno": "OR-02860",
+        "product_name": "W246 Signature Joggers Grey",
+        "price": "2799.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/gyla2_11727698592.webp",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-cae22443",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "51",
+        "marketplace_category_id": [
+          1
+        ]
+      },
+      {
+        "id": "582937",
+        "acno": "OR-02860",
+        "product_name": "T70 Teal-Acid Wash YoungLA Tee Wavy",
+        "price": "2800.00",
+        "sale_price": "0.00",
+        "inventory_policy": "0",
+        "image": "https://oms.getorio.com/uploads/OR-02860/Camasa_Barbati_Youngla_405_Wavy_Colectie-5312-QYVSO_ZOOM1727698339.jpg",
+        "on_sale": "N",
+        "product_weight": "0.10",
+        "sku_code": "SKU-e3315706",
+        "type": "variable",
+        "business_name": "Exportify",
+        "rn": "52",
+        "marketplace_category_id": [
+          1
+        ]
+      }
+    ]
+  }
+}
