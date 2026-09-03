@@ -2,86 +2,22 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { ImageSkeleton } from "@/components/image-skeleton";
+import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import { Search, ShoppingCart } from "lucide-react";
 
 import { KhareedoLogo } from "@/components/khareedo-logo";
-import { Card } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
+import { Product } from "@/features/types";
+import { ProductCard, ProductCardSkeleton } from "@/features/products/product-card";
+import { useCart } from "@/features/cart/use-cart-store";
 
 import frame from "@/public/Frame.png";
 import cartImg from "@/public/cart.png";
 import bag from "@/public/bag.png";
 
-type Product = {
-  id: string;
-  product_name: string;
-  price: string;
-  image: string;
-};
-
 const PAGE_SIZE = 10;
 const API_URL = "/api/products";
-
-function formatPrice(price: string | number) {
-  return `Rs. ${Math.round(Number(price)).toLocaleString("en-PK")}`;
-}
-
-function ProductCard({ product }: { product: Product }) {
-  const [loaded, setLoaded] = useState(false);
-
-  return (
-    <div>
-      <Card className="gap-0 py-0 ring-0 shadow-none transition-transform hover:-translate-y-0.5 border border-[#F6F6F6]">
-        <div className="relative aspect-square w-full overflow-hidden bg-neutral-100">
-          <ImageSkeleton
-            src={product.image}
-            alt={product.product_name}
-            fill
-            sizes="(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw"
-            className="object-cover"
-            onLoadingChange={setLoaded}
-          />
-        </div>
-      </Card>
-      <div className="px-1 py-3">
-        {loaded ? (
-          <>
-            <p className="line-clamp-2 text-[12px] text-[#474747]">
-              {product.product_name}
-            </p>
-            <p className="mt-1 text-[14px] font-semibold text-black">
-              {formatPrice(product.price)}
-            </p>
-          </>
-        ) : (
-          <>
-            <Skeleton className="h-3 w-4/5" />
-            <Skeleton className="mt-2 h-3.5 w-1/2" />
-          </>
-        )}
-      </div>
-    </div>
-  );
-}
-
-function ProductCardSkeleton() {
-  return (
-    <div>
-      <Card className="gap-0 py-0 ring-0 shadow-none border border-[#F6F6F6]">
-        <div className="relative aspect-square w-full overflow-hidden bg-neutral-100">
-          <Skeleton className="absolute inset-0" />
-        </div>
-      </Card>
-      <div className="px-1 py-3">
-        <Skeleton className="h-3 w-4/5" />
-        <Skeleton className="mt-2 h-3.5 w-1/2" />
-      </div>
-    </div>
-  );
-}
 
 async function fetchProducts(search: string, offset: number) {
   const res = await fetch(API_URL, {
@@ -105,6 +41,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
   const offsetRef = useRef(0);
+  const cart = useCart();
 
   useEffect(() => {
     const timer = setTimeout(() => setDebouncedQuery(query.trim()), 400);
@@ -113,7 +50,7 @@ export default function Home() {
 
   useEffect(() => {
     let cancelled = false;
-    setLoading(true);
+    setLoading(true); // eslint-disable-line react-hooks/set-state-in-effect
     offsetRef.current = 0;
     fetchProducts(debouncedQuery, 0)
       .then(({ products: p, hasMore: more }) => {
@@ -163,6 +100,8 @@ export default function Home() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const cartCount = cart.items.reduce((sum, i) => sum + i.quantity, 0);
+
   return (
     <div className="flex min-h-screen flex-col bg-white text-neutral-900">
       <header
@@ -173,13 +112,18 @@ export default function Home() {
       >
         <div className="mx-auto flex max-w-7xl 2xl:max-w-362.5 items-center justify-between px-6 py-4">
           <KhareedoLogo className="h-4 2xl:h-5 text-neutral-950" />
-          <button
-            type="button"
-            className="cursor-pointer flex items-center gap-2 text-sm font-medium text-neutral-900 transition-colors hover:text-black"
+          <Link
+            href="/cart"
+            className="relative cursor-pointer flex items-center gap-2 text-sm font-medium text-neutral-900 transition-colors hover:text-black"
           >
             <ShoppingCart className="size-5" />
             <span className="hidden sm:inline">My Cart</span>
-          </button>
+            {cartCount > 0 && (
+              <span className="absolute -top-1.5 -right-1.5 flex size-4 items-center justify-center rounded-full bg-neutral-950 text-[10px] font-bold text-white">
+                {cartCount}
+              </span>
+            )}
+          </Link>
         </div>
       </header>
 
@@ -234,8 +178,6 @@ export default function Home() {
               <Search className="size-6" />
             </button>
           </form>
-
-
         </div>
 
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-linear-to-b from-transparent to-white" />
@@ -271,7 +213,7 @@ export default function Home() {
 
       <footer className="border-t border-black/5 py-6">
         <p className="text-center text-sm text-neutral-500">
-          © 2026 Khareedo. All Right Reserved.
+          &copy; 2026 Khareedo. All Right Reserved.
         </p>
       </footer>
     </div>

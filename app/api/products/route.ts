@@ -31,6 +31,7 @@ export async function POST(request: Request) {
   const products = raw.map(
     (p: { id: string; acno: string; product_name: string; price: string; image: string }) => ({
       id: p.id,
+      acno: p.acno,
       product_name: p.product_name,
       price: p.price,
       image: p.image.startsWith("http")
