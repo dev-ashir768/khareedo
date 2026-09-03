@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { ImageSkeleton } from "@/components/image-skeleton";
 import { useInView } from "react-intersection-observer";
@@ -12,9 +12,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
 
 import frame from "@/public/Frame.png";
-import cart from "@/public/cart.png";
+import cartImg from "@/public/cart.png";
 import bag from "@/public/bag.png";
-import productsData from "@/data/products.json";
 
 type Product = {
   id: string;
@@ -23,12 +22,8 @@ type Product = {
   image: string;
 };
 
-const products = productsData.payload.products as Product[];
-
-const allPrices = products.map((p) => Number(p.price));
-const PRICE_MIN = 0;
-const PRICE_MAX = Math.ceil(Math.max(...allPrices) / 1000) * 1000;
-const FULL_RANGE: [number, number] = [PRICE_MIN, PRICE_MAX];
+const PAGE_SIZE = 10;
+const API_URL = "/api/products";
 
 function formatPrice(price: string | number) {
   return `Rs. ${Math.round(Number(price)).toLocaleString("en-PK")}`;
@@ -72,9 +67,94 @@ function ProductCard({ product }: { product: Product }) {
   );
 }
 
+function ProductCardSkeleton() {
+  return (
+    <div>
+      <Card className="gap-0 py-0 ring-0 shadow-none border border-[#F6F6F6]">
+        <div className="relative aspect-square w-full overflow-hidden bg-neutral-100">
+          <Skeleton className="absolute inset-0" />
+        </div>
+      </Card>
+      <div className="px-1 py-3">
+        <Skeleton className="h-3 w-4/5" />
+        <Skeleton className="mt-2 h-3.5 w-1/2" />
+      </div>
+    </div>
+  );
+}
+
+async function fetchProducts(search: string, offset: number) {
+  const res = await fetch(API_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ limit: PAGE_SIZE, offset, search }),
+  });
+  if (!res.ok) throw new Error("Failed to fetch products");
+  const data = await res.json();
+  return {
+    products: data.products as Product[],
+    hasMore: data.hasMore as boolean,
+  };
+}
+
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [appliedRange] = useState<[number, number]>(FULL_RANGE);
+  const [debouncedQuery, setDebouncedQuery] = useState("");
+  const [products, setProducts] = useState<Product[]>([]);
+  const [hasMore, setHasMore] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const offsetRef = useRef(0);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedQuery(query.trim()), 400);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+    offsetRef.current = 0;
+    fetchProducts(debouncedQuery, 0)
+      .then(({ products: p, hasMore: more }) => {
+        if (cancelled) return;
+        setProducts(p);
+        setHasMore(more);
+        offsetRef.current = p.length;
+        setLoading(false);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        setProducts([]);
+        setHasMore(false);
+        setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [debouncedQuery]);
+
+  const loadMore = useCallback(() => {
+    if (loadingMore || !hasMore) return;
+    setLoadingMore(true);
+    fetchProducts(debouncedQuery, offsetRef.current)
+      .then(({ products: p, hasMore: more }) => {
+        setProducts((prev) => [...prev, ...p]);
+        setHasMore(more);
+        offsetRef.current += p.length;
+        setLoadingMore(false);
+      })
+      .catch(() => {
+        setLoadingMore(false);
+      });
+  }, [debouncedQuery, loadingMore, hasMore]);
+
+  const { ref: loadMoreRef } = useInView({
+    onChange: (inView) => {
+      if (inView) loadMore();
+    },
+  });
+
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -82,39 +162,6 @@ export default function Home() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  const filteredProducts = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return products.filter((p) => {
-      const matchesQuery = !q || p.product_name.toLowerCase().includes(q);
-      const price = Number(p.price);
-      const matchesPrice = price >= appliedRange[0] && price <= appliedRange[1];
-      return matchesQuery && matchesPrice;
-    });
-  }, [query, appliedRange]);
-
-  const PAGE_SIZE = 10;
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  const [prevFilteredProducts, setPrevFilteredProducts] =
-    useState(filteredProducts);
-  if (prevFilteredProducts !== filteredProducts) {
-    setPrevFilteredProducts(filteredProducts);
-    setVisibleCount(PAGE_SIZE);
-  }
-  const visibleProducts = filteredProducts.slice(0, visibleCount);
-  const hasMore = visibleCount < filteredProducts.length;
-
-  const [loadingMore, setLoadingMore] = useState(false);
-  const { ref: loadMoreRef } = useInView({
-    onChange: (inView) => {
-      if (!inView || !hasMore || loadingMore) return;
-      setLoadingMore(true);
-      setTimeout(() => {
-        setVisibleCount((c) => c + PAGE_SIZE);
-        setLoadingMore(false);
-      }, 2000);
-    },
-  });
 
   return (
     <div className="flex min-h-screen flex-col bg-white text-neutral-900">
@@ -146,7 +193,7 @@ export default function Home() {
         />
 
         <Image
-          src={cart}
+          src={cartImg}
           alt=""
           aria-hidden
           className="pointer-events-none absolute left-0 top-36 z-20 hidden w-32 select-none sm:block md:w-44 lg:w-54 2xl:w-64"
@@ -187,19 +234,143 @@ export default function Home() {
               <Search className="size-6" />
             </button>
           </form>
+
+          {/* <div className="mt-6 flex w-full max-w-full items-center gap-2 overflow-x-auto px-2 pb-1 sm:flex-wrap sm:justify-center sm:overflow-visible">
+            {CATEGORIES.map((c) => (
+              <button
+                key={c}
+                type="button"
+                onClick={() => setCategory(c)}
+                className={cn(
+                  "cursor-pointer shadow-md shrink-0 rounded-full px-5 py-2 text-sm font-medium transition-colors",
+                  category === c
+                    ? "bg-neutral-950 text-white"
+                    : "bg-white text-neutral-700 ring-1 ring-black/5 hover:bg-neutral-100"
+                )}
+              >
+                {c}
+              </button>
+            ))}
+            <Popover.Root
+              open={priceOpen}
+              onOpenChange={(open) => {
+                setPriceOpen(open);
+                if (open) setDraftRange(appliedRange);
+              }}
+            >
+              <Popover.Trigger asChild>
+                <button
+                  type="button"
+                  className={cn(
+                    "cursor-pointer shadow-md group flex shrink-0 items-center gap-1 rounded-full px-5 py-2 text-sm font-medium transition-colors",
+                    priceFiltered
+                      ? "bg-neutral-950 text-white"
+                      : "bg-white text-neutral-700 ring-1 ring-black/5 hover:bg-neutral-100"
+                  )}
+                >
+                  Price
+                  <ChevronDown className="size-4 transition-transform group-data-[state=open]:rotate-180" />
+                </button>
+              </Popover.Trigger>
+              <Popover.Portal>
+                <Popover.Content
+                  align="end"
+                  sideOffset={10}
+                  className="z-30 w-[calc(100vw-3rem)] max-w-80 rounded-2xl bg-white p-5 text-left shadow-xl ring-1 ring-black/5"
+                >
+                  <Slider.Root
+                    className="relative flex h-5 w-full touch-none items-center"
+                    min={PRICE_MIN}
+                    max={PRICE_MAX}
+                    step={50}
+                    minStepsBetweenThumbs={1}
+                    value={draftRange}
+                    onValueChange={(v) => setDraftRange(v as [number, number])}
+                  >
+                    <Slider.Track className="relative h-1 grow rounded-full bg-neutral-200">
+                      <Slider.Range className="absolute h-full rounded-full bg-black" />
+                    </Slider.Track>
+                    <Slider.Thumb className="block size-5 rounded-full bg-black shadow ring-2 ring-white transition-colors focus-visible:outline-none focus-visible:black" />
+                    <Slider.Thumb className="block size-5 rounded-full bg-black shadow ring-2 ring-white transition-colors focus-visible:outline-none focus-visible:black" />
+                  </Slider.Root>
+
+                  <div className="mt-6 flex items-center gap-3">
+                    <input
+                      type="number"
+                      inputMode="numeric"
+                      min={PRICE_MIN}
+                      max={draftRange[1]}
+                      value={draftRange[0]}
+                      onChange={(e) =>
+                        setDraftRange([
+                          Math.min(Number(e.target.value) || 0, draftRange[1]),
+                          draftRange[1],
+                        ])
+                      }
+                      className="w-full rounded-xl border border-neutral-200 px-3 py-2 text-center text-sm outline-none focus-visible:ring-black"
+                    />
+                    <span className="shrink-0 text-sm text-neutral-500">to</span>
+                    <input
+                      type="number"
+                      inputMode="numeric"
+                      min={draftRange[0]}
+                      max={PRICE_MAX}
+                      value={draftRange[1]}
+                      onChange={(e) =>
+                        setDraftRange([
+                          draftRange[0],
+                          Math.max(Number(e.target.value) || 0, draftRange[0]),
+                        ])
+                      }
+                      className="w-full rounded-xl border border-neutral-200 px-3 py-2 text-center text-sm outline-none "
+                    />
+                  </div>
+
+                  <div className="mt-5 flex items-center gap-3">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setDraftRange(FULL_RANGE);
+                        setAppliedRange(FULL_RANGE);
+                      }}
+                      className="px-5 py-2 flex-1 rounded-xl bg-neutral-100 text-sm font-semibold text-neutral-700 transition-colors hover:bg-neutral-200"
+                    >
+                      Reset
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setAppliedRange(draftRange);
+                        setPriceOpen(false);
+                      }}
+                      className="px-5 py-2 flex-1 rounded-xl bg-neutral-950 text-sm font-semibold text-white transition-colors hover:bg-neutral-800"
+                    >
+                      Done
+                    </button>
+                  </div>
+                </Popover.Content>
+              </Popover.Portal>
+            </Popover.Root>
+          </div> */}
         </div>
 
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-linear-to-b from-transparent to-white" />
       </section>
 
       <main className="mx-auto w-full max-w-7xl 2xl:max-w-362.5 flex-1 px-6 pb-16">
-        {visibleProducts.length === 0 ? (
+        {loading ? (
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+            {Array.from({ length: PAGE_SIZE }).map((_, i) => (
+              <ProductCardSkeleton key={i} />
+            ))}
+          </div>
+        ) : products.length === 0 ? (
           <p className="py-16 text-center text-sm text-neutral-500">
-            No products match your filters.
+            No products match your search.
           </p>
         ) : (
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 ">
-            {visibleProducts.map((product) => (
+            {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
@@ -216,7 +387,7 @@ export default function Home() {
 
       <footer className="border-t border-black/5 py-6">
         <p className="text-center text-sm text-neutral-500">
-          © 2026 Khareedo. All Right Reserved.
+          © 2026 Khareedo. All Right Reserved.
         </p>
       </footer>
     </div>
