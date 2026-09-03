@@ -15,7 +15,7 @@ export function ProductCard({ product }: { product: Product }) {
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <Link href={`/products/${product.acno}/${product.id}`}>
+    <Link href={`/products/${product.acno}/${product.id}`} className="cursor-pointer">
       <Card className="gap-0 py-0 ring-0 shadow-none transition-transform hover:-translate-y-0.5 border border-[#F6F6F6]">
         <div className="relative aspect-square w-full overflow-hidden bg-neutral-100">
           <ImageSkeleton

@@ -36,6 +36,7 @@ export default function ProductDetailWrapper({ productId, acno }: Props) {
   >({});
   const [quantity, setQuantity] = useState(1);
   const [addedToCart, setAddedToCart] = useState(false);
+  const [showFullDesc, setShowFullDesc] = useState(false);
   const cart = useCart();
 
   useEffect(() => {
@@ -263,7 +264,7 @@ export default function ProductDetailWrapper({ productId, acno }: Props) {
                           }))
                         }
                         className={cn(
-                          "rounded-lg border px-4 py-2 text-sm font-medium transition-all",
+                          "cursor-pointer rounded-lg border px-4 py-2 text-sm font-medium transition-all",
                           selectedAttributes[attr.name] === opt
                             ? "border-neutral-950 bg-neutral-950 text-white"
                             : "border-neutral-200 bg-white text-neutral-700 hover:border-neutral-400"
