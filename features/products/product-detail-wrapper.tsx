@@ -306,7 +306,7 @@ export default function ProductDetailWrapper({ productId, acno }: Props) {
             <div className="flex flex-col gap-3 sm:max-w-sm">
               <Button
                 size="lg"
-                className="w-full rounded-xl text-base font-semibold h-12"
+                className="cursor-pointer w-full rounded-xl text-base font-semibold h-12"
                 onClick={handleAddToCart}
                 disabled={!allAttributesSelected}
               >
@@ -316,7 +316,7 @@ export default function ProductDetailWrapper({ productId, acno }: Props) {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="w-full rounded-xl text-base font-semibold h-12"
+                  className="cursor-pointer w-full rounded-xl text-base font-semibold h-12"
                   onClick={() => {
                     if (allAttributesSelected) handleAddToCart();
                   }}
@@ -331,11 +331,24 @@ export default function ProductDetailWrapper({ productId, acno }: Props) {
               <div className="mt-8 border-t border-neutral-100 pt-6">
                 <h3 className="font-semibold mb-3">Description</h3>
                 <div
-                  className="text-sm text-neutral-600 leading-relaxed [&_p]:mb-2 [&_ul]:list-disc [&_ul]:pl-5"
+                  className={cn(
+                    "relative text-sm text-neutral-600 leading-relaxed [&_p]:mb-2 [&_ul]:list-disc [&_ul]:pl-5 [&_img]:rounded-lg [&_img]:my-3",
+                    !showFullDesc && "max-h-40 overflow-hidden"
+                  )}
                   dangerouslySetInnerHTML={{
                     __html: decodeHtml(product.description),
                   }}
                 />
+                {!showFullDesc && (
+                  <div className="pointer-events-none -mt-10 h-10 bg-gradient-to-t from-white to-transparent" />
+                )}
+                <button
+                  type="button"
+                  onClick={() => setShowFullDesc((v) => !v)}
+                  className="cursor-pointer mt-2 text-sm font-medium text-neutral-950 hover:underline"
+                >
+                  {showFullDesc ? "Show Less" : "Show More"}
+                </button>
               </div>
             )}
           </div>
